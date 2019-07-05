@@ -1,0 +1,17 @@
+Local:
+  Host: sde
+  Port: 4100
+  Region: us-east-1
+  AccountId: canva
+  LogMessages: false
+  Queues:
+    - Name: local-queue1
+    - Name: local-queue2
+  Topics:
+    - Name: local-topic1
+      Subscriptions:
+        - QueueName: local-queue3
+          Raw: true
+        - QueueName: local-queue4
+          Raw: true
+    - Name: local-topi
