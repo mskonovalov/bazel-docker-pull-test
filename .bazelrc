@@ -1,3 +1,4 @@
 # to build Docker images which requires python2
 build --incompatible_use_python_toolchains
-build --host_force_python=PY2
+#build --host_force_python=PY2
+build --incompatible_allow_python_version_transitions=true

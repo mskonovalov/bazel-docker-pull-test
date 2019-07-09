@@ -10,7 +10,7 @@ py_runtime(
 
 py_runtime(
     name = "default_container_py3_runtime",
-    interpreter_path = "/usr/bin/python",
+    interpreter_path = "/nix/store/f698bw0zrv79vzihz6xwcyd84sncrqp8-python3-3.6.8/bin/python3",
     python_version = "PY3",
 )
 
